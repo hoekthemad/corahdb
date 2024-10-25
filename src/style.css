@@ -1,5 +1,11 @@
 table#monstertable tbody tr:hover,
 table#itemtable tbody tr:hover{
     cursor: pointer;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+table#monstertable tbody tr td:hover,
+table#itemtable tbody tr td:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.33);
 }
